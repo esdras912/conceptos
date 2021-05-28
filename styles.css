@@ -1,0 +1,35 @@
+#main {
+    margin: 0;
+}
+.style_nav{
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+
+.img_hero{
+    margin: 0 !important;
+    height: 700px !important;
+    background-image: url('bin/4x/hero_image.png') !important;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+   color: azure !important;
+}
+#blank_hero1{
+   padding-top: 5% !important; 
+}
+
+#main > div.img_hero > div > div.col-lg-6.mx-auto > div > button > a {
+    color: azure !important;
+    text-decoration: none;
+}
+
+.text{
+    font-size: 150%;
+}
+
+
+
+  
+  

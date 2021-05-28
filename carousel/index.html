@@ -6,15 +6,15 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.83.1">
-    <title> Creed Apparel</title>
+    <title>Carousel Template · Bootstrap v5.0</title>
 
-    
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
 
     
 
     <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-  
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -33,13 +33,12 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="carousel/carousel.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
   </head>
   <body>
     
-<header id = "header">
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark style_nav">
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Carousel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,31 +56,17 @@
             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li>
         </ul>
-          
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
   </nav>
 </header>
 
-<main id = "main">
-    <div class = "img_hero"> 
-    <div class="px-4 py-5 my-5 text-center">
-      <div id = "blank_hero1"> </div> 
-        <img class="d-block mx-auto mb-4 " src="bin/loho.png" alt="" width="80" height="80">
+<main>
 
-        <h1 class="display-5 fw-bold">CREED APPAREL</h1>
-        <h3 class="display-5">Future Nostalgia</h3>
-        <h5 class="display-5 text">La salle | Inovación Tecnológica</h5>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Campos Gonzales | Jorge Aram Domínguez | Montes de Oca Daniel Ortiz | Aguilar Marcos Ortiz Quiroz | Jorge Emilio Tristán Rendon | Ángel Eduardo</p>
-          
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3"> <a href="#myCarousel"> Siguiente </a></button>
-            
-          </div>
-        </div>
-    </div>
-    </div>   
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -227,4 +212,3 @@
       
   </body>
 </html>
- 
