@@ -10,14 +10,26 @@
 .img_hero{
     margin: 0 !important;
     height: 700px !important;
-    background-image: url('https://i.ibb.co/WGqTnB8/clothing-store-with-blurred-effect-min.jpg') !important;
+    background-image: url('bin/4x/hero_image.png') !important;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
-   
+   color: azure !important;
+}
+#blank_hero1{
+   padding-top: 5% !important; 
 }
 
-.padd{
-    padding-top: 6%;
-    padding-bottom: 3%;
+#main > div.img_hero > div > div.col-lg-6.mx-auto > div > button > a {
+    color: azure !important;
+    text-decoration: none;
 }
+
+.text{
+    font-size: 150%;
+}
+
+
+
+  
+  
