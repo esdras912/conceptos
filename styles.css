@@ -20,16 +20,20 @@
    padding-top: 5% !important; 
 }
 
-#main > div.img_hero > div > div.col-lg-6.mx-auto > div > button > a {
-    color: azure !important;
-    text-decoration: none;
-}
+
 
 .text{
     font-size: 150%;
 }
 
+.item2{
+    background-image: url('bin/template.jpg') !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+}
 
+#main > div.img_hero > div > div:nth-child(3) > div > div > button > a {
+    color: white !important;
+    text-decoration: none ;
+}
 
-  
-  
