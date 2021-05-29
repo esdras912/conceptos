@@ -10,7 +10,7 @@
 .img_hero{
     margin: 0 !important;
     height: 700px !important;
-    background-image: url('bin/4x/hero_image.png') !important;
+    background-image: url('https://i.ibb.co/k1scchg/hero-image.jpg') !important;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -26,11 +26,7 @@
     font-size: 150%;
 }
 
-.item2{
-    background-image: url('bin/template.jpg') !important;
-    background-repeat: no-repeat;
-    background-position: center !important;
-}
+
 
 #main > div.img_hero > div > div:nth-child(3) > div > div > button > a {
     color: white !important;
