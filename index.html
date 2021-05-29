@@ -35,10 +35,7 @@
   </head>
 
 
-  <body>
-
-    
-        
+  <body class=" h-100 text-center text-white bg-dark">     
   <main id = "main">
 
 <header id = "header">
@@ -51,14 +48,16 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#hero">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link active" aria-current="page" href="#intro">Introducción</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link active" aria-current="page" href="#content">Contenido</a>
           </li>
+          
+
         </ul>
           
       </div>
@@ -66,30 +65,45 @@
   </nav>
 </header>
 
-
-
-  <div class = "img_hero"> 
+  <div class = "img_hero" id="hero"> 
     <div class="px-4 py-5 my-5 text-center fade_In">
       <div id = "blank_hero1"> </div> 
         <img class="d-block mx-auto mb-4 " src="https://i.ibb.co/3r0mTWM/loho.jpg" alt="" width="80" height="80">
       <div>
         <h1 class="display-5 fw-bold">CREED APPAREL</h1>
         <h3 class="display-5">Future Nostalgia</h3>
-        <h5 class="display-5 text">La salle | Inovación Tecnológica</h5>
+        <h5 class="display-5 text">La salle | Calidad e Innovación Tecnológica 1 </h5>
+        <h5 class="display-5 text">Profesor: Pedro Arturo Vargas Rodríguez</h5>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Campos Gonzales | Jorge Aram Domínguez | Montes de Oca Daniel Ortiz | Aguilar Marcos Ortiz Quiroz | Jorge Emilio Tristán Rendon | Ángel Eduardo</p>
           
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3"> <a href="#myCarousel"> Siguiente </a></button>
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3"> <a href="#intro"> Introducción </a></button>
             
           </div>
         </div>
     </div>
     </div>
   </div>  
+  <br>
 
-<br>
 
+      
+<div  id ="intro" class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column blank_intro">
+
+
+  <br>
+  <p class="lead parrafo">
+    Creed Apparel es una marca de ropa hecha para que todos tengan la
+    libertad de expresarse, ya sea sus ideas, sueños o pensamientos, en esta empresa
+    creemos que todos merecen el derecho a ser escuchados y así lo refleja tanto
+    nuestra ropa como nuestra pagina Web. ¡¡Disfruten!!
+    
+  </p>
+ 
+
+
+</div>
 
 
   <div id="myCarousel" class="carousel slide size_carrousel" data-bs-ride="carousel">
@@ -156,14 +170,8 @@
   </div>
 
 
-  
 
-
-    <hr class="featurette-divider">
-
-  </div>
-
-
+<article id = "forms">
 
   <div class="modal fade" id="exampleModalCenteredScrollable" tabindex="-1" aria-labelledby="exampleModalCenteredScrollableTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -307,15 +315,19 @@
       </div>
     </div>
       
-      
-      
+</article>     
+   
 
-    
-    
+<div class="embed-responsive embed-responsive-21by9">
+  <iframe width="560" height="315" class="embed-responsive-item size_video" src="https://www.youtube-nocookie.com/embed/_GaFPUGnM7I" allowfullscreen></iframe>
+</div>
+
+
+
 
 
   <footer class="container">
-    <p class="float-end"><a href="#">Back to top</a></p>
+    <p class="float-end"><a href="#header">Back to top</a></p>
     <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
 </main>

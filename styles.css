@@ -26,10 +26,23 @@
     font-size: 150%;
 }
 
-
-
+.blank_intro{
+    padding-top: 18% !important;
+    padding-bottom: 18% !important;
+}   
+.parrafo{
+    padding-right: 10% !important;
+    padding-left: 10% !important;
+}
 #main > div.img_hero > div > div:nth-child(3) > div > div > button > a {
     color: white !important;
     text-decoration: none ;
 }
+#forms{
+    color: black !important;
+}
 
+.size_video{
+    margin: 1%;
+    
+}
