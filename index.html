@@ -54,7 +54,18 @@
             <a class="nav-link active" aria-current="page" href="#intro">Introducción</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#content">Contenido</a>
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary"> <a href="#intro" id ="split_nav" > Contenido </a>  </button>
+              <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
           </li>
           
 
@@ -324,12 +335,14 @@
 
 
 
-
-
   <footer class="container">
     <p class="float-end"><a href="#header">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; Creed Apparel &middot; </p>
   </footer>
+
+
+
+
 </main>
     <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/cheatsheet.js"></script>
