@@ -60,8 +60,13 @@
 .img2{
   align-items: center !important;
   width: 100% !important;
+  
   border-radius: 45 px;
  
+}
+
+.img_container_pa{
+height: fit-content !important;
 }
 
 .mar{
