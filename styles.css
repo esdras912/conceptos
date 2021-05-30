@@ -74,3 +74,21 @@ height: fit-content !important;
     margin-top: 0 !important;
    
 }
+.texxt{
+padding-left: 20% !important;
+padding-right: 20% !important;
+}
+
+.blaccck{
+color: cornsilk;
+background-color:#2e3440;
+
+}
+
+#intro > h5{
+    font-weight: lighter !important;
+}
+
+#intro > p{
+    color: mintcream;
+}
